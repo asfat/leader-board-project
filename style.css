@@ -1,0 +1,36 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@300;400&display=swap');
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.single-player img {
+    width: 56px;
+    height: 56px;
+
+}
+
+.single-player {
+    display: flex;
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.blog img {
+    width: 177px;
+    height: 177px;
+}
+
+.blog-flex {
+    display: flex;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
