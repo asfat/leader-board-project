@@ -35,3 +35,14 @@
 .course-flex {
     display: flex;
 }
+
+.top-course img {
+    width: 224px;
+    height: 104px;
+
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
