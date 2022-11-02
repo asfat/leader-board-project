@@ -1,10 +1,45 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@300;400&display=swap');
 
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.first-part {
+    margin-top: 36px;
+    margin-bottom: 21px;
+    margin-left: 285px;
+    margin-right: 285px;
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
+.last-part {
+    margin-left: 285px;
+    margin-right: 285px;
+    margin-top: 21px;
+    margin-bottom: 28px;
+    background-color: #FFFFFF;
+    width: 870px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 23px;
+}
+
+.section-title {
+    color: #562EFF;
+}
+
 .player {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .single-player img {
@@ -13,11 +48,13 @@
 
 }
 
+.img-margin {
+    margin-right: 16px;
+}
+
 .single-player {
     display: flex;
 
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Mono', monospace;
 
 }
 
@@ -34,6 +71,8 @@
 
 .course-flex {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .top-course img {
@@ -45,4 +84,29 @@
 .course-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.a-deco {
+    text-decoration: none;
+}
+
+.fa-star {
+    width: 12px;
+    height: 11px;
+
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.img-shadow-box {
+    width: 253px;
+    height: 270px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    margin-bottom: 28px;
 }
