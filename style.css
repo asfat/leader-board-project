@@ -115,7 +115,49 @@ body {
 
     .first-part,
     .last-part {
+        margin: 5px;
         width: 100%;
+    }
+
+    .section-title {
+        padding-bottom: 10px;
+    }
+
+    .player,
+    .course,
+    .course-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single-player,
+    .responsive-course {
+        flex-direction: column;
+    }
+
+    .responsive-course span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive-course .a-deco {
+        padding-left: 5px;
+    }
+
+    .course-flex p {
+
+        font-weight: bold;
+
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .first-part,
+    .last-part {
+        margin: 5px;
+        width: 100%;
+
     }
 
     .section-title {
