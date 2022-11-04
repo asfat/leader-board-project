@@ -110,3 +110,42 @@ body {
     filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
     margin-bottom: 28px;
 }
+
+@media only screen and (max-width:688px) {
+
+    .first-part,
+    .last-part {
+        width: 100%;
+    }
+
+    .section-title {
+        padding-bottom: 10px;
+    }
+
+    .player,
+    .course,
+    .course-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single-player,
+    .responsive-course {
+        flex-direction: column;
+    }
+
+    .responsive-course span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive-course .a-deco {
+        padding-left: 5px;
+    }
+
+    .course-flex p {
+
+        font-weight: bold;
+
+    }
+}
